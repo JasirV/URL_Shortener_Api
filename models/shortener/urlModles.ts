@@ -12,7 +12,7 @@ const urlSchema = new mongoose.Schema<ShortUrl>({
         required:true,
         default:shortid.generate
     },
-    createdAt: {
+    createdAt: { 
         type: Date,
         default: Date.now, 
       },
